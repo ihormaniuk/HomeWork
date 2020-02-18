@@ -163,11 +163,9 @@ public class ConsoleEng {
 
 
         int number;
-        boolean flag =  true;
         ConsoleEng monthConsoleEng = new ConsoleEng ();
 
 
-        while(flag){
             Scanner scan= new Scanner(System.in);
             if(scan.hasNextInt()){
 
@@ -283,11 +281,9 @@ public class ConsoleEng {
                         break;
                     }
                     case 11: {
-                        System.out.println("---------------------------------------------------------------------------");
-                        System.out.println("11 - exit");
-                        System.out.println("---------------------------------------------------------------------------");
-
-                        flag = false;
+                        System.out.println("---------------------------------------------------------------------");
+                        System.out.println("           **************  exit  ***********************");
+                        System.out.println("----------------------------------------------------------------------");
                         break;
                     }
                 }
@@ -297,9 +293,5 @@ public class ConsoleEng {
                 System.out.println("error invalid input");
                 System.out.println("---------------------------------------------------------------------------");
             }
-
-
-
-        }
     }
 }

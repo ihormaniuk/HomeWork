@@ -2,42 +2,44 @@ package Lesson_3;
 
 import java.util.Scanner;
 
+import static MyClassesToWork.Print.print;
+
 public class Lesson_3 {
     public static void main ( String[] args ) {
         Scanner scanner = new Scanner ( System.in );
-        System.out.println ( "Введіть день тижня" );
+        print( "Введіть день тижня" );
         String day = scanner.nextLine ( );
         switch ( day ) {
             case "Понеділок":
-                System.out.println ( "Понеділок" );
-                System.out.println ( "Зустріч" );
+                print ( "Понеділок" );
+                print ( "Зустріч" );
                 break;
             case "Вівторок":
-                System.out.println ( "Вівторок" );
-                System.out.println ( "Вечеря" );
+                print ( "Вівторок" );
+                print ( "Вечеря" );
                 break;
             case "Середа":
-                System.out.println ( "Середа" );
-                System.out.println ( "Зателефонувати Андрію" );
+                print ( "Середа" );
+                print ( "Зателефонувати Андрію" );
                 break;
             case "Четверг":
-                System.out.println ( "Четверг" );
-                System.out.println ( "Відрядження" );
+                print ( "Четверг" );
+                print ( "Відрядження" );
                 break;
             case "Пятнця":
-                System.out.println ( "Пятнця" );
-                System.out.println ( "Перерахунок" );
+                print ( "Пятнця" );
+                print ( "Перерахунок" );
                 break;
             case "Субота":
-                System.out.println ( "Субота" );
-                System.out.println ( "Вихідний" );
+                print ( "Субота" );
+                print ( "Вихідний" );
                 break;
             case "Неділя":
-                System.out.println ( "Неділя" );
-                System.out.println ( "Вихідний" );
+                print ( "Неділя" );
+                print ( "Вихідний" );
                 break;
             default:
-                System.out.println ( "Веденно невірне значеня" );
+                print ( "Веденно невірне значеня" );
         }
     }
 }

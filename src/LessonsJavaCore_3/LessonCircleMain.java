@@ -1,12 +1,14 @@
 package LessonsJavaCore_3;
 
+import static MyClassesToWork.Print.print;
+
 public class LessonCircleMain {
     public static void main(String[] args){
-        System.out.println ( "ведіть радіус" );
+        print ( "ведіть радіус" );
         LessonCircle circle = new LessonCircle ();
         circle.scanner.nextLine ();
-        System.out.println ( "діаметер - "  + circle.diameter () );
-        System.out.println ("площа - " + circle.area () );
-        System.out.println ( "довжина - " + circle.length () );
+        print ( "діаметер - "  + circle.diameter () );
+        print ("площа - " + circle.area () );
+        print ( "довжина - " + circle.length () );
     }
 }

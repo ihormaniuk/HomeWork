@@ -1,5 +1,7 @@
 package Lesson_2;
 
+import static MyClassesToWork.Print.print;
+
 public class lesson_2 {
     public static void main ( String[] args ) {
         int a = 10;
@@ -10,11 +12,11 @@ public class lesson_2 {
             double x1, x2;
             x1 = ( - b + Math.sqrt ( d ) ) / ( 2 * a );
             x2 = ( - b - Math.sqrt ( d ) ) / ( 2 * a );
-            System.out.print ( "Two roots: " + ( ( x1 > x2 ) ? x2 : x1 ) + " " + ( ( x1 > x2 ) ? x1 : x2 ) );
+            print ( "Two roots: " + ( ( x1 > x2 ) ? x2 : x1 ) + " " + ( ( x1 > x2 ) ? x1 : x2 ) );
         } else if ( d == 0 ) {
-            System.out.print ( "One root: " + ( - b / ( 2 * a ) ) );
+            print ( "One root: " + ( - b / ( 2 * a ) ) );
         } else {
-            System.out.print ( "No roots" );
+            print ( "No roots" );
         }
     }
 }

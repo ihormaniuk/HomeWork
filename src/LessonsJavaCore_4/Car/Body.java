@@ -6,7 +6,7 @@ public class Body {
 
     @Override
     public String toString ( ) {
-        return " МАтеріали Кузова " + MaterialBody + " - " + "Колір Кузова" + ColorBody;
+        return " Матеріали Кузова " + MaterialBody + " - " + "Колір Кузова" + ColorBody;
     }
 
     public String getMaterialBody ( ) {

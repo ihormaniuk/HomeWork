@@ -1,5 +1,7 @@
 package Lessons_4;
 
+import static MyClassesToWork.Print.print;
+
 public class Lesson_4_5 {
     public static void main ( String[] args ) {
         int[] number = {1, 22, 56, 686, 2, 4, 6, 7, 89, 33, 3, 4, 6, 9, 7, 34, 5, 2, 1, 9};
@@ -15,7 +17,7 @@ public class Lesson_4_5 {
                 b = number[i];
             }
         }
-        System.out.println ( a );
-        System.out.println ( b );
+        print ("Найбільше число масиву : " + a );
+        print ("Найменше число масиву : " + b );
     }
 }

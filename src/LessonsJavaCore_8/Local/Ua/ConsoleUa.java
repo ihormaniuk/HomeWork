@@ -160,7 +160,6 @@ public class ConsoleUa {
         ConsoleUa consoleUa = new ConsoleUa ();
 
 
-        while(true){
             Scanner scan= new Scanner(System.in);
             if(scan.hasNextInt()){
 
@@ -289,9 +288,5 @@ public class ConsoleUa {
                 System.out.println("******* Помилка невірно введено *******");
                 System.out.println("******************************************");
             }
-
-
-
-        }
     }
 }
