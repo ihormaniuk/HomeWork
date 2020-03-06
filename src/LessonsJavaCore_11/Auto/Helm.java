@@ -4,16 +4,24 @@ public class Helm {
     private int diameterHelm;
     private String materialHelm;
 
-    public int getDiameterHelm(int diameterHelm){
+    public int getDiameterHelm(){
         return diameterHelm;
     }
 
-    public String getMaterialHelm(String materialHelm){
+    public String getMaterialHelm(){
         return materialHelm;
     }
 
     public Helm(){
 
+    }
+
+    public Helm(int diameterHelm){
+        this.diameterHelm = diameterHelm;
+    }
+
+    public Helm(String materialHelm){
+        this.materialHelm = materialHelm;
     }
 
     public Helm(int diameterHelm,String materialHelm){

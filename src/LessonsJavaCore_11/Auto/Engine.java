@@ -3,7 +3,7 @@ package LessonsJavaCore_11.Auto;
 public class Engine {
     private int numberOfCylinders;
 
-    public int getNumberOfCylinders(int numberOfCylinders){
+    public int getNumberOfCylinders(){
         return numberOfCylinders;
     }
     public Engine(){
