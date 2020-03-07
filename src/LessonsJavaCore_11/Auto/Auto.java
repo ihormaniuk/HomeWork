@@ -45,12 +45,20 @@ public class Auto implements Comparable <Auto> {
     public String toString(){
         return "Number Of Horse Power : " + numbersOfHorsePower + " , " + "Year Release : " + yearRelease + "\n" +
                 "Engine Number Cylinders : " + engine.getNumberOfCylinders() + " \n" +
-                "Helm Diameter : " + helm.getDiameterHelm() + " , " + "Helm Material : " + helm.getMaterialHelm();
+                "Helm Diameter : " + helm.getDiameterHelm() + " , " + "Helm Material : " + helm.getMaterialHelm()+"\n" +
+                "" +
+                "";
     }
 
     @Override
     public int compareTo(Auto auto){
-        int numberPowerCompare = Integer.compare(this.numbersOfHorsePower,auto.numbersOfHorsePower);
-        return numberPowerCompare;
+        if(this.numbersOfHorsePower == auto.numbersOfHorsePower){
+            return 0;
+        }
+        else if(this.numbersOfHorsePower < auto.numbersOfHorsePower){
+            return -1;
+        }else {
+            return 1;
+        }
     }
 }
