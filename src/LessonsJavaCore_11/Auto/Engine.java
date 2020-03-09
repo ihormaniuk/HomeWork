@@ -1,6 +1,6 @@
 package LessonsJavaCore_11.Auto;
 
-public class Engine {
+public class Engine{
     private int numberOfCylinders;
 
     public int getNumberOfCylinders(){

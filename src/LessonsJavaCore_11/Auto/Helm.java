@@ -1,6 +1,6 @@
 package LessonsJavaCore_11.Auto;
 
-public class Helm {
+public class Helm  {
     private int diameterHelm;
     private String materialHelm;
 

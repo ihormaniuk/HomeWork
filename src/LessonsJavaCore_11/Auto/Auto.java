@@ -5,6 +5,7 @@ public class Auto implements Comparable <Auto> {
     private int yearRelease;
     private Engine engine;
     private Helm helm;
+    int count = 0;
 
     public int getNumbersOfHorsePower(){
         return numbersOfHorsePower;
@@ -35,7 +36,8 @@ public class Auto implements Comparable <Auto> {
         this.yearRelease = yearRelease;
     }
 
-    public Auto(int numbersOfHorsePower,int yearRelease,Engine engine,Helm helm){
+    public Auto(int count,int numbersOfHorsePower,int yearRelease,Engine engine,Helm helm){
+        this.count = count;
         this.numbersOfHorsePower = numbersOfHorsePower;
         this.yearRelease = yearRelease;
         this.engine = engine;
@@ -43,10 +45,9 @@ public class Auto implements Comparable <Auto> {
     }
 
     public String toString(){
-        return "Number Of Horse Power : " + numbersOfHorsePower + " , " + "Year Release : " + yearRelease + "\n" +
+        return " " + count + " : " +"Number Of Horse Power : " + numbersOfHorsePower + " , " + "Year Release : " + yearRelease + "\n" +
                 "Engine Number Cylinders : " + engine.getNumberOfCylinders() + " \n" +
                 "Helm Diameter : " + helm.getDiameterHelm() + " , " + "Helm Material : " + helm.getMaterialHelm()+"\n" +
-                "" +
                 "";
     }
 
