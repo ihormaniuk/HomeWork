@@ -52,14 +52,22 @@ public class Auto implements Comparable <Auto> {
     }
 
     @Override
-    public int compareTo(Auto auto){
-        if(this.numbersOfHorsePower == auto.numbersOfHorsePower){
-            return 0;
-        }
-        else if(this.numbersOfHorsePower < auto.numbersOfHorsePower){
-            return -1;
-        }else {
-            return 1;
-        }
+    public int compareTo(Auto auto) {
+        return compare(this.numbersOfHorsePower, auto.numbersOfHorsePower);
     }
+    public static int compare(int x, int y) {
+        return Integer.compare(x, y);
+    }
+
+//    @Override
+//    public int compareTo(Auto auto){
+//        if(this.numbersOfHorsePower == auto.numbersOfHorsePower){
+//            return 0;
+//        }
+//        else if(this.numbersOfHorsePower < auto.numbersOfHorsePower){
+//            return -1;
+//        }else {
+//            return 1;
+//        }
+//    }
 }

@@ -37,7 +37,7 @@ public class mainAuto {
             print("3 : відсортувати за зростанням  всі обєкти за полем : Number Of Horse Power ");
             switch (scanner.nextInt()) {
                 case 1: {
-                    System.out.println( Arrays.deepToString(auto));
+                    print( Arrays.deepToString(auto));
                     break;
                 }
 
