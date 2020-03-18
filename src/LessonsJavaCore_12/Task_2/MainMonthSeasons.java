@@ -1,8 +1,8 @@
-package LessonsJavaCore_12.Task_1;
+package LessonsJavaCore_12.Task_2;
 
 
-import LessonsJavaCore_12.Task_1.MonthSeasons.MonthUa;
-import LessonsJavaCore_12.Task_1.MonthSeasons.SeasonsUa;
+import LessonsJavaCore_12.Task_2.MonthSeasons.MonthUa;
+import LessonsJavaCore_12.Task_2.MonthSeasons.SeasonsUa;
 
 import java.util.ArrayList;
 import java.util.List;

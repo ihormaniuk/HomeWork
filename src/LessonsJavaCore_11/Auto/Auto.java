@@ -35,6 +35,12 @@ public class Auto implements Comparable <Auto> {
         this.numbersOfHorsePower = numbersOfHorsePower;
         this.yearRelease = yearRelease;
     }
+    public Auto(int numbersOfHorsePower,int yearRelease,Engine engine,Helm helm){
+        this.numbersOfHorsePower = numbersOfHorsePower;
+        this.yearRelease = yearRelease;
+        this.engine = engine;
+        this.helm = helm;
+    }
 
     public Auto(int count,int numbersOfHorsePower,int yearRelease,Engine engine,Helm helm){
         this.count = count;
