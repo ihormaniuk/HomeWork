@@ -19,11 +19,11 @@ public class ConsoleMain {
                 "***** 2 - English *****" );
 
         Integer number = scanner.nextInt ();
-        if(number.equals ( s )){
+        if(number.equals(s)){
             try {
                 throw new WrongInputConsoleParametersException ("ведіть цифри");
             }catch (WrongInputConsoleParametersException parameter){
-                parameter.getMessage ();
+                parameter.getMessage ("ведіть цифри");
             }
         }
         switch ( number ){
