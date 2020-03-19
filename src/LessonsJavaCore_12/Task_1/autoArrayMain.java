@@ -15,10 +15,8 @@ public class autoArrayMain {
     public static void main(String [] args){
         Scanner scanner = new Scanner(System.in);
 
-        print("1 : Вивести toString() даних елементів масиву на консоль");
+        print("1 : Створити двовимірний масив, величина якого вираховується рандомно x");
         print("2 : Для всіх обєктів даного масиву засетати одне значення  ");
-        print("3 : відсортувати за спаданням всі обєкти за введеним полем ");
-        print("4 : відсортувати за зростанням  всі обєкти за введеним полем ");
 
 
         List<Auto> autoList = new ArrayList<>();
