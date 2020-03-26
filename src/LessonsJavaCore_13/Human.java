@@ -1,4 +1,4 @@
-package LessonsJavaCore_12.Task_3;
+package LessonsJavaCore_13;
 
 public abstract class Human {
     private int weight;
